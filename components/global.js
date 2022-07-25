@@ -1,0 +1,3 @@
+export const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY ?? '7bi0V1XtINv9Juosne2ykSFgxaUKHQ5O'; // Must be 256 bits (32 characters)
+export const RANDOM_KEY = process.env.RANDOM_KEY ?? "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnnpqrstuvwxyz";
+export const dbConnectionString = process.env.MONGODB_KEY ?? "mongodb+srv://nik:NA7T4JExmRAPuGZ@cluster0.ozcp8.mongodb.net/reactnative?authSource=admin&replicaSet=atlas-l28q1o-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
